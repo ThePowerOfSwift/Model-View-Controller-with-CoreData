@@ -3,7 +3,7 @@
 
 ## MVC Structure
 
-[![Demo Doccou alpha](http://image.slidesharecdn.com/androidtoios-141116202814-conversion-gate02/95/ios-for-android-developers-with-swift-20-638.jpg?cb=1416188009)](http://image.slidesharecdn.com/androidtoios-141116202814-conversion-gate02/95/ios-for-android-developers-with-swift-20-638.jpg?cb=1416188009)
+[![Demo Doccou alpha](https://github.com/mihailsalari/Model-View-Controller-with-CoreData/blob/master/mvc.jpg)](https://github.com/mihailsalari/Model-View-Controller-with-CoreData/blob/master/mvc.jpg)
 
 
 
