@@ -22,7 +22,6 @@
 		C8A01DF01CA0085E00A21159 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A01DEE1CA0085E00A21159 /* User+CoreDataProperties.swift */; };
 		C8A01DF11CA0085E00A21159 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A01DEF1CA0085E00A21159 /* User.swift */; };
 		C8A01DF31CA00E2000A21159 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A01DF21CA00E2000A21159 /* DataStore.swift */; };
-		C8A01DFA1CA0154900A21159 /* mvc.png in Resources */ = {isa = PBXBuildFile; fileRef = C8A01DF91CA0154900A21159 /* mvc.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		C8A01DEE1CA0085E00A21159 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "User+CoreDataProperties.swift"; path = "../User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		C8A01DEF1CA0085E00A21159 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
 		C8A01DF21CA00E2000A21159 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
-		C8A01DF91CA0154900A21159 /* mvc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mvc.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +131,6 @@
 		C8A01DF81CA0153E00A21159 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				C8A01DF91CA0154900A21159 /* mvc.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -204,7 +201,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8A01DFA1CA0154900A21159 /* mvc.png in Resources */,
 				B5FCF6D21C60BD1A0005FC9B /* LaunchScreen.storyboard in Resources */,
 				B5FCF6CF1C60BD1A0005FC9B /* Assets.xcassets in Resources */,
 				B5FCF6CA1C60BD1A0005FC9B /* Main.storyboard in Resources */,

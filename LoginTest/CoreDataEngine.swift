@@ -32,18 +32,22 @@ class CoreDataEngine {
     
     
     func createuser(userM: UserModel) -> Bool {
-        let entityDescription = NSEntityDescription.entityForName("user", inManagedObjectContext: managedObjectContext)
-        let user = User(entity: entityDescription!, insertIntoManagedObjectContext: managedObjectContext)
+        let entityDescription = NSEntityDescription.entityForName("User", inManagedObjectContext: managedObjectContext)
+        let user = User(entity:entityDescription!, insertIntoManagedObjectContext: managedObjectContext)
         
         user.setValue(userM.username, forKey: "name")
         user.setValue(userM.password, forKey: "password")
         
         do {
             try managedObjectContext.save()
-            print("User got saved!")
+            print("-- User Got saved! --");
             return true
-        } catch let error as NSError {
-            print(error.userInfo)
+        } catch {
+            // Replace this implementation with code to handle the error appropriately.
+            // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+            let nserror = error as NSError
+            NSLog("Unresolved error \(nserror), \(nserror.userInfo)")
+            abort()
         }
         
         return false
@@ -65,6 +69,7 @@ class CoreDataEngine {
             
         } catch let error as NSError {
             print("Could not fetch \(error.userInfo)")
+            abort()
         }
         
         return false
